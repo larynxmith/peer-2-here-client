@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footerButtons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.tagSearch {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.profileHeaderEdit {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.color1 {
+  color: #000000;
+}
+.color2 {
+  color: #f8b32d;
+}
+.color3 {
+  color: #1bbbff;
+}
+.color4 {
+  color: #ffcd4b;
+}
+.color5 {
+  color: #80a829;
+}
+.color6 {
+  color: #231f20;
+}
+
+.home {
+  background-image: url("backgroundimage.jpg");
+  background-size: cover;
+}
+
+.unauth-home {
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+
+.welcomeHeader {
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+.homeInfo {
+  padding-left: 130px;
+}
+
+.infoHeading {
+  font-size: 30px;
+}
+
+.info {
+  padding-left: 35px;
+  padding-right: 400px;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sign-up-home-button {
+  font-size: 60px;
+}
+
+
